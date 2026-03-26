@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Adam Buxton", rating: 5, text: "Highly recommend Luke and his team. Very good with communication, produced a step by step plan and kept us informed and explained each step along the way. Our garden has been transformed from a boring uneven new build garden mess to a …  +6 ", date: "11 months ago" },
+    { name: "Marc Wallace", rating: 5, text: "Luke has been doing garden maintenance on my property for the last 5 years and his work is always exceptional. He’s always on time, goes above and beyond to make the garden look perfect and does an amazing job every time. Would fully recommend! ", date: "4 months ago" },
+    { name: "Andrew Warren", rating: 5, text: "We have recently used Countryside LANdscapes & Groundworks for two projects in our garden. Both jobs were completed on time and within the quote provided. I particularly want to mention Luke & Grant who I found  attentive, knowledgeable & …  ", date: "2 months ago" },
+    { name: "Annie Smith", rating: 5, text: "Highly recommend Luke and his team, they did great work for me yesterday taking down an old pergola and putting up a section of new fence - it has transformed the garden. The guys were easy to get on with, quick, efficient and paid …  ", date: "4 months ago" },
+    { name: "Nev Ford", rating: 5, text: "We had these guys take on a full tidy up of our garden, tree removal, full clean, weed and re sand of patio, paths and large driveway. The gardens look fantastic now. Luke and Joe were both friendly and helpful and really grafted to get the …  ", date: "2 years ago" },
+    { name: "Charley P", rating: 5, text: "Luke and his team were super friendly, polite and got the job done quickly. They were very tidy and fit us in on quite short notice. We wouldn't hesitate to recommend and use again. Thanks for a great job! ", date: "6 months ago" },
+    { name: "Julia Walker", rating: 5, text: "Luke and his team ripped up the awful turf the builder had laid, rotavated, levelled and top-soiled the ground before laying thick, good quality turf, finishing off with a block paving brick edging.  The result is excellent!  Luke and the …  ", date: "2 years ago" },
+    { name: "Rosie Brown", rating: 5, text: "It was such a pleasure to meet Luke and his team. From the get go Luke was enthusiastic and polite! Not only that he did a fantastic job and worked efficiently and productively to get the job done quickly. really appreciate it and will definitely boo", date: "8 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
